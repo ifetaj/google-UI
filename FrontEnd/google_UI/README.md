@@ -1,7 +1,7 @@
 # Projet Front-End — Architecture Web & Réseau
 
-Ce projet est une base front-end structurée selon les bonnes pratiques modernes du développement web.  
-Il inclut une architecture CSS modulaire, une séparation claire des responsabilités, et une fondation prête pour évoluer vers un site professionnel.
+Ce projet est une base front-end structurée selon l'interface de google search.
+Un projet d'imitation de l'interface utilisateur de google. La strucuture suit les normes modernes du webdev.
 
 
 ## Structure du Projet
@@ -26,4 +26,5 @@ project/
 ├── js/
 │ └── main.js
 │
+
 └── img/
