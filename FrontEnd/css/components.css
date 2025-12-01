@@ -1,0 +1,50 @@
+/* -------------------------------------------------------------
+   COMPONENTS
+-------------------------------------------------------------- */
+
+/* Buttons */
+.btn {
+    padding: 10px 18px;
+    font-size: 14px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    border: 1px solid transparent;
+}
+
+.btn--primary {
+    background-color: var(--blue-main);
+    color: #fff;
+}
+.btn--primary:hover {
+    background-color: var(--blue-main-hover);
+}
+
+.btn--gray {
+    background-color: var(--gray-200);
+}
+.btn--gray:hover {
+    border-color: var(--gray-300);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: var(--space-lg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Input field */
+.input {
+    width: 100%;
+    padding: 0 1rem;
+    height: var(--input-height);
+    border-radius: 100px;
+    border: 1px solid var(--gray-300);
+    transition: var(--transition);
+}
+.input:focus {
+    box-shadow: var(--shadow-md);
+}

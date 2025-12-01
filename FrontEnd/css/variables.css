@@ -1,0 +1,33 @@
+/* -------------------------------------------------------------
+   VARIABLES 
+   ------------------------------------------------------------- */
+:root {
+    --font-main: "Poppins", sans-serif;
+
+    /* Couleurs typiques Google */
+    --gray-100: #f8f9fa;
+    --gray-200: #f1f3f4;
+    --gray-300: #dadce0;
+    --gray-600: #5f6368;
+    --gray-800: #202124;
+
+    --blue-main: #1a73e8;
+    --blue-main-hover: #1669c1;
+
+    --border-radius: 0.8rem;
+    --transition: 0.2s ease;
+
+    --input-height: 45px;
+    
+    /* Spacing scale */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 40px;
+
+    /* Shadow */
+    --shadow-sm: 0 1px 4px rgba(0,0,0,0.12);
+    --shadow-md: 0 2px 12px rgba(0,0,0,0.15);
+
+}

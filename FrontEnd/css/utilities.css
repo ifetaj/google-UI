@@ -1,0 +1,26 @@
+/* -------------------------------------------------------------
+   UTILITIES
+-------------------------------------------------------------- */
+
+/* Spacing */
+.mt-sm { margin-top: var(--space-sm); }
+.mt-md { margin-top: var(--space-md); }
+.mt-lg { margin-top: var(--space-lg); }
+.mb-sm { margin-bottom: var(--space-sm); }
+.mb-md { margin-bottom: var(--space-md); }
+.mb-lg { margin-bottom: var(--space-lg); }
+
+/* Centering */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Display */
+.hidden { display: none !important; }
+
+/* Width helpers */
+.w-100 { width: 100%; }
+.max-w-sm { max-width: 480px; }
+.max-w-md { max-width: 680px; }

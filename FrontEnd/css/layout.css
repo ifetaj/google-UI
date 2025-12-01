@@ -1,0 +1,211 @@
+
+/* -------------------------------------------------------------
+   NAVBAR
+   ------------------------------------------------------------- */
+nav {
+    width: 100%;
+}
+
+nav .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    gap: 1.2rem;
+    font-size: clamp(12px, 1.4vw, 14px);
+}
+
+nav .container img.allApps {
+    width: 32px;
+    background: var(--gray-800);
+    padding: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+nav .container button {
+    background-color: var(--blue-main);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 10px 18px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+nav .container button:hover {
+    background-color: var(--blue-main-hover);
+}
+
+
+/* -------------------------------------------------------------
+   SECTION CENTRALE
+   ------------------------------------------------------------- */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.mainLogo {
+    width: 270px;
+    max-width: 80%;
+    margin-bottom: 30px;
+}
+
+
+/* -------------------------------------------------------------
+   SEARCH BOX
+   ------------------------------------------------------------- */
+.searchBox {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+    margin-bottom: 35px;
+}
+
+#searchQuery {
+    width: 100%;
+    height: var(--input-height);
+    border: 1px solid var(--gray-300);
+    border-radius: 100px;
+    padding: 0 45px;
+    font-size: 15px;
+    outline: none;
+    transition: var(--transition);
+    background: #fff;
+}
+
+#searchQuery:focus {
+    border-color: var(--gray-300);
+    box-shadow: var(--shadow-md);
+}
+
+#searchQuery:focus,
+#searchQuery:focus-visible {
+    box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+    border-color: var(--gray-300);
+}
+
+/* Icône loupe */
+.magnifier {
+    width: 18px;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Micro + Caméra */
+.micAndCam {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.micAndCam img {
+    height: 25px;
+    cursor: pointer;
+}
+
+
+/* -------------------------------------------------------------
+   BOUTONS GOOGLE
+   ------------------------------------------------------------- */
+.btn {
+    padding: 10px 18px;
+    font-size: 14px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn--primary {
+    background-color: var(--blue-main);
+    color: white;
+}
+.btn--primary:hover {
+    background-color: var(--blue-main-hover);
+}
+
+.btn--gray {
+    background-color: var(--gray-200);
+}
+.btn--gray:hover {
+    border-color: var(--gray-300);
+    box-shadow: var(--shadow-sm);
+}
+
+ 
+.buttonsGroup {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.buttonsGroup button {
+    background-color: var(--gray-200);
+    border: 1px solid transparent;
+    padding: 10px 18px;
+    font-size: 14px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.buttonsGroup button:hover {
+    border-color: var(--gray-300);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+
+
+/* -------------------------------------------------------------
+   LANGUES
+   ------------------------------------------------------------- */
+.languages {
+    font-size: 14px;
+}
+
+.languages a {
+    color: var(--blue-main);
+}
+
+
+/* -------------------------------------------------------------
+   FOOTER
+   ------------------------------------------------------------- */
+footer {
+    background-color: var(--gray-200);
+    padding: 20px 45px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray-800);
+}
+
+footer .leftSide,
+footer .rightSide {
+    display: flex;
+    gap: 25px;
+    font-size: 14px;
+}
+
+
+/* -------------------------------------------------------------
+   RESPONSIVE DESIGN
+   ------------------------------------------------------------- */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+}
